@@ -25,7 +25,7 @@ const projectsData: Project[] = [
     id: '2',
     name: 'CFS Score Calculator',
     description: 'assess the quality, growth trajectory, financial stability, and valuation efficiency of equities within the NIFTY200 universe.',
-    link: 'https://sentra-frontend.vercel.app//cfs',
+    link: 'https://sentra-frontend.vercel.app/cfs',
     image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxkYXRhJTIwYW5hbHl0aWNzJTIwZGFzaGJvYXJkfGVufDF8fHx8MTc2OTMwMTk4N3ww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
     tags: ['AI', 'Analytics', 'Trading', 'Machine Learning'],
   },

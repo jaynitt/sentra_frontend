@@ -65,7 +65,7 @@ const projectsData: Project[] = [
     tags: ["Real-time", "Monitoring", "Volatility", "Exchanges"],
   },
   {
-    id: "5",
+    id: "6",
     name: "Neural Market AI",
     description:
       "Deep learning neural networks that analyze market sentiment from millions of data points across social media, news, and trading volumes.",
@@ -321,7 +321,6 @@ function ProjectCard({ project, index }: { project: Project; index: number }) {
         </div>
            
         {/* Link Button */}
-              <div className="p-6">
         {isInternal ? (
           // ✅ INTERNAL ROUTE FIX
           <Link
@@ -346,7 +345,6 @@ function ProjectCard({ project, index }: { project: Project; index: number }) {
       </div>
 
 
-      </div>
     </motion.div>
   );
 }
